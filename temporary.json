@@ -1,20 +1,20 @@
 {
   "records": [
     {
-      "id": "ST-6998937",
-      "To": "Chiang Rai",
-      "From": "Chiang Mai",
-      "Seat": "2D",
-      "Time": "04:40 PM",
+      "id": "ST-585458",
+      "To": "Chon Buri",
+      "From": "Bangkok",
+      "Seat": "1A",
+      "Time": "09:00 AM",
       "Status": "On Time",
       "Date": "2026-02-22",
-      "TimeStart": "01:30 PM",
-      "TimeLong": "3h 10m",
-      "ExpressLine": "EL-6919185",
-      "BusID": "B-1258901",
-      "Gate": "G-5975158",
-      "Class": "Premium AI Coach",
-      "Price": 40.75,
+      "TimeStart": "07:00 AM",
+      "TimeLong": "2h 0m",
+      "ExpressLine": "EL-4888169",
+      "BusID": "B-9880742",
+      "Gate": "G-3714350",
+      "Class": "Minibus",
+      "Price": 17.75,
       "IsConfirm": false,
       "Passanger": "1 Passenger"
     }
