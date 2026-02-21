@@ -92,7 +92,7 @@ export default function CardTrip({booking}:dataProps){
 
                 <div className="flex flex-col md:flex-row gap-2 w-full md:w-auto">
                     {booking.IsConfirm === false &&(
-                            <Decision date={booking.Date}/>
+                            <Decision date={booking.Date} id={booking.id}/>
                     )}
                     {booking.IsConfirm == true &&(
                         <Detail/>

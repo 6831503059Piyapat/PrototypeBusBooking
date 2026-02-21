@@ -54,9 +54,7 @@ const MyBooking = () => {
           <h1 className="text-xl md:text-2xl font-bold text-slate-900">Trip Management</h1>
           <p className="text-slate-500 text-xs md:text-sm">Manage your upcoming journeys and view travel history powered by AI optimization.</p>
         </div>
-        <div className="flex bg-white rounded-lg p-1 border border-slate-200 shadow-sm w-full md:w-auto">
-          <button className="flex-1 md:flex-none px-3 md:px-4 py-2 bg-blue-600 text-white rounded-md text-xs md:text-sm font-medium">Active Tickets</button>
-        </div>
+        
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
