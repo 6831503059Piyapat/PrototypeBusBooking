@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ST-5982801",
+    "To": "Chiang Rai",
+    "From": "Chiang Mai",
+    "Seat": "1D",
+    "Time": "01:05 PM",
+    "Status": "On Time",
+    "Date": "2026-02-23",
+    "TimeStart": "10:00 AM",
+    "TimeLong": "3h 5m",
+    "ExpressLine": "EL-6137785",
+    "BusID": "B-2596113",
+    "Gate": "G-3071082",
+    "Class": "Standard Coach",
+    "Price": 33.75,
+    "IsConfirm": false,
+    "Passanger": "1 Passenger"
+  },
+  {
+    "id": "ST-6714854",
+    "To": "Chiang Rai",
+    "From": "Chiang Mai",
+    "Seat": "1D",
+    "Time": "01:05 PM",
+    "Status": "On Time",
+    "Date": "2026-02-23",
+    "TimeStart": "10:00 AM",
+    "TimeLong": "3h 5m",
+    "ExpressLine": "EL-8152184",
+    "BusID": "B-3554320",
+    "Gate": "G-3705656",
+    "Class": "Standard Coach",
+    "Price": 33.75,
+    "IsConfirm": false,
+    "Passanger": "1 Passenger"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "destinations": [
+    {
+      "id": "dest-01",
+      "name": "Chiang Rai",
+      "image": "https://images.unsplash.com/photo-1671188893377-ee825a53d27f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDQ3fHxjaGlhbmclMjByYWl8ZW58MHx8fHwxNjg1MzM5OTUxfDA&ixlib=rb-4.0.3&q=80&w=2000",
+      "startingPrice": 24,
+      "tag": "AI CHOICE",
+      "tip": "Tuesday departures are 20% cheaper this month."
+    },
+    {
+      "id": "dest-02",
+      "name": "Bangkok",
+      "image": "https://harbour.space/blog-static/_next/image?url=https%3A%2F%2Fblog.harbour.space%2Fstrapi%2Fuploads%2Fvisit_and_study_in_bangkok_thailand_BKK_and_BCN_Blog_1_79c91b5d60.png&w=3840&q=75",
+      "startingPrice": 32,
+      "tag": "POPULAR",
+      "tip": "Book for the weekend to avoid morning commuter rush."
+    },
+    {
+      "id": "dest-03",
+      "name": "Chon Buri",
+      "image": "https://cdn.routeperfect.com/images/image/3803/9311594199_9309ddf80d.jpg",
+      "startingPrice": 19,
+      "tag": "NEW ROUTE",
+      "tip": "Prices are predicted to drop in 48 hours."
+    },
+    {
+      "id": "dest-04",
+      "name": "Phuket",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngy4iifCBzMDk7xdpzP1L5o1ymBFQSfR-BQ&s",
+      "startingPrice": 28,
+      "tag": "AI OPTIMIZED",
+      "tip": "Express routes available for this destination."
+    },
+    {
+      "id": "dest-05",
+      "name": "Chiang Mai",
+      "image": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/cswglxpstphljdourpfu.jpg",
+      "startingPrice": 25,
+      "tag": "TOP RATED",
+      "tip": "Festivals are coming up! Book 2 weeks in advance."
+    },
+    {
+      "id": "dest-06",
+      "name": "Kanchanaburi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXj60aDvMsy1d1PuNdNjzwgEkvMVV6w4MKSQ&s",
+      "startingPrice": 15,
+      "tag": "NATURE",
+      "tip": "River-side stays have higher availability on weekdays."
+    }
+  ],
+  "busSchedules": [
+    {
+      "id": "bus-001",
+      "from": "Chiang Mai",
+      "to": "Chiang Rai",
+      "departureTime": "08:30 AM",
+      "arrivalTime": "11:45 AM",
+      "TimeSpend": "3h 15m",
+      "price": 42,
+      "originalPrice": 64,
+      
+      "busType": "Premium AI Coach",
+      "isBestChoice": true,
+      "features": ["wifi", "power", "luggage"]
+    },
+    {
+      "id": "bus-002",
+      "from": "Chiang Mai",
+      "to": "Chiang Rai",
+      "departureTime": "10:00 AM",
+      "arrivalTime": "01:05 PM",
+      "TimeSpend": "3h 5m",
+      "price": 28,
+      "busType": "Standard Coach",
+      "isBestChoice": false,
+      "features": ["wifi", "luggage"]
+    },
+    {
+      "id": "bus-003",
+      "from": "Chiang Mai",
+      "to": "Chiang Rai",
+      "departureTime": "01:30 PM",
+      "arrivalTime": "04:40 PM",
+      "TimeSpend": "3h 10m",
+      "price": 35,
+      "busType": "Premium AI Coach",
+      "isBestChoice": false,
+      "features": ["wifi", "power", "luggage"]
+    },
+    {
+      "id": "bus-004",
+      "from": "Chiang Mai",
+      "to": "Chiang Rai",
+      "departureTime": "09:00 PM",
+      "arrivalTime": "12:15 AM",
+      "TimeSpend": "3h 15m",
+      "price": 45,
+      "busType": "Sleeper Coach",
+      "isBestChoice": false,
+      "features": ["wifi", "power", "meal", "pillow"]
+    },
+    {
+      "id": "bus-005",
+      "from": "Bangkok",
+      "to": "Chon Buri",
+      "departureTime": "07:00 AM",
+      "arrivalTime": "09:00 AM",
+      "TimeSpend": "2h 0m",
+      "price": 12,
+      "busType": "Minibus",
+      "isBestChoice": true,
+      "features": ["air-con"]
+    },
+    {
+      "id": "bus-006",
+      "from": "Bangkok",
+      "to": "Phuket",
+      "departureTime": "06:00 PM",
+      "arrivalTime": "06:30 AM",
+      "TimeSpend": "12h 30m",
+      "price": 55,
+      "originalPrice": 75,
+      "busType": "VIP Sleeper 24",
+      "isBestChoice": true,
+      "features": ["wifi", "power", "meal", "massage-chair"]
+    },
+    {
+      "id": "bus-007",
+      "from": "Bangkok",
+      "to": "Chiang Mai",
+      "departureTime": "20:30",
+      "arrivalTime": "07:00",
+      "price": 48,
+      "busType": "Express Coach",
+      "isBestChoice": false,
+      "features": ["wifi", "power", "meal"]
+    }
+  ],
+  "bookings": []
+}
