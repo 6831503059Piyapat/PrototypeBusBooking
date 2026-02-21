@@ -72,7 +72,7 @@ async function addTemporary(){
        BusID: generateRandomId("B"),
        Gate: generateRandomId("G"),
        Class:temporary?.Class,
-       Price:temporary?.Price + 5.75,
+       Price:(temporary?.Price ?? 0) + 5.75,
        IsConfirm:temporary?.IsConfirm,
        Passanger:temporary?.Passanger
     })
@@ -100,7 +100,7 @@ async function HandlePayCredit(){
        BusID: generateRandomId("B"),
        Gate: generateRandomId("G"),
        Class:temporary?.Class,
-       Price:temporary?.Price + 5.75,
+       Price:(temporary?.Price ?? 0) + 5.75,
        IsConfirm:temporary?.IsConfirm,
        Passanger:temporary?.Passanger
     })
@@ -130,7 +130,7 @@ async function HandlePayMobileBank(){
        BusID: generateRandomId("B"),
        Gate: generateRandomId("G"),
        Class:temporary?.Class,
-       Price:temporary?.Price + 5.75,
+       Price:(temporary?.Price ?? 0) + 5.75,
        IsConfirm:temporary?.IsConfirm,
        Passanger:temporary?.Passanger
     })
@@ -213,7 +213,7 @@ return (
                 <PriceRow label="Taxes & VAT" value="$3.25" />
                 <div className="flex justify-between pt-2">
                   <span className="text-base sm:text-lg font-bold">Grand Total</span>
-                  <span className="text-base sm:text-lg font-bold text-blue-600">${temporary?.Price + 5.75}</span>
+                  <span className="text-base sm:text-lg font-bold text-blue-600">${((temporary?.Price ?? 0) + 5.75).toFixed(2)}</span>
                 </div>
               </div>
 {/* Button Pay */}

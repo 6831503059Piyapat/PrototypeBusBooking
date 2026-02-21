@@ -132,7 +132,7 @@ export default function BusSelect() {
             <div className="space-y-4">
               {dbFetch.filter((bus) => Temporary === bus.to).length > 0 ? (
                 dbFetch.filter((bus) => Temporary === bus.to).map((bus) => (
-                  <BusCard key={bus.id} Date={selectedDate} passanger={passengers} TimeSpend={bus?.TimeSpend} id={bus?.id} from={bus?.from} to={bus?.to} departure={bus?.departureTime} arrival={bus?.arrivalTime} price={bus?.price} originalPrice={bus?.originalPrice} type={bus?.busType} isSmartest={bus?.isBestChoice} selectedDate={selectedDate} passengers={passengers} onSelectClick={() => {
+                  <BusCard key={bus.id} Date={selectedDate} TimeSpend={bus?.TimeSpend} id={bus?.id} from={bus?.from} to={bus?.to} departure={bus?.departureTime} arrival={bus?.arrivalTime} price={bus?.price} originalPrice={bus?.originalPrice} type={bus?.busType} isSmartest={bus?.isBestChoice}  passenger={passengers} onSelectClick={() => {
                     if (!selectedDate) {
                       setDateError(true);
                     }

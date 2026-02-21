@@ -13,11 +13,12 @@ interface BusCardProps {
   to:string;
   isSmartest?: boolean;
   Date?: string;
-  passanger?: number;
+  passenger?: number;
+  
   onSelectClick?: () => void;
 }
 
-export default function BusCard({ id,TimeSpend, departure, arrival, price, originalPrice, type, isSmartest,from,to, Date, passanger, onSelectClick }: BusCardProps) {
+export default function BusCard({ id,TimeSpend, departure, arrival, price, originalPrice, type, isSmartest,from,to, Date, passenger, onSelectClick }: BusCardProps) {
 const router = useRouter();
 async function handleSelect(){
   // Validate date before proceeding
@@ -41,7 +42,7 @@ async function handleSelect(){
         Class:type,
         Price:price,
         Date:Date,
-        Passanger:`${passanger} Passenger`,
+        Passanger:`${passenger} Passenger`,
       })
     })
     if(res.ok){
